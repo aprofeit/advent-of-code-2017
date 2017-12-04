@@ -1,3 +1,6 @@
+# https://adventofcode.com/2017/day/4
+# part 1
+
 require_relative 'lib/passphrase_validator'
 
 def solve(input)

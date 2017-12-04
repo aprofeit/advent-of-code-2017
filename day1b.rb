@@ -1,3 +1,6 @@
+# https://adventofcode.com/2017/day/1
+# part 2
+
 require_relative 'lib/circular_array'
 
 def solve(input)

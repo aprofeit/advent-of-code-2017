@@ -1,3 +1,6 @@
+# https://adventofcode.com/2017/day/3
+# part 1
+
 require_relative 'lib/spiral_cursor'
 
 def solve(input)
