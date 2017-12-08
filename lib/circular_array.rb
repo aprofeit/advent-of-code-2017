@@ -1,15 +1,9 @@
-class CircularArray
-  attr_reader :arr
-
-  def initialize(arr)
-    @arr = arr
+class CircularArray < Array
+  def [](i)
+    super(i % length)
   end
 
-  def [](i)
-    if i < arr.length
-      arr[i]
-    else
-      self[i - arr.length]
-    end
+  def []=(i, val)
+    super(i % length, val)
   end
 end
